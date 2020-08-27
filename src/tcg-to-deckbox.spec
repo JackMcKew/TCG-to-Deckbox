@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['tcg-to-deckbox.py'],
-             pathex=['],
+             pathex=['.'],
              binaries=[],
              datas=[('replacements.config', '.')],
              hiddenimports=[tkinter],
