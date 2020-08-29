@@ -2,7 +2,6 @@
 
 block_cipher = None
 
-
 a = Analysis(['tcg-to-deckbox.py'],
              pathex=['.'],
              binaries=[],
